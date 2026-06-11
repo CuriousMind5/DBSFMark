@@ -1,0 +1,15 @@
+scheme,detector_scheme,source_scheme,label,n,valid_scores,errors,mean_z,std_z,min_z,max_z,percent_flagged
+vanilla_kgw,kgw,vanilla,0,500,500,0,-0.3420,1.2677,-4.7022,5.2221,0.40
+vanilla_sweet,sweet,vanilla,0,500,500,0,0.1184,1.1684,-2.6667,4.0482,0.20
+vanilla_ewd,ewd,vanilla,0,500,500,0,0.0445,1.1465,-2.6398,3.7031,0.00
+vanilla_dip,dip,vanilla,0,500,500,0,-0.0848,0.3161,-0.9959,0.7071,0.00
+vanilla_unbiased,unbiased,vanilla,0,500,500,0,-0.0794,0.2896,-0.9488,0.6325,0.00
+vanilla_morphmark,morphmark,vanilla,0,500,500,0,-0.3420,1.2677,-4.7022,5.2221,4.00
+vanilla_dbsf,dbsf,vanilla,0,500,500,0,0.1543,1.0699,-2.4405,3.4983,0.00
+kgw,kgw,kgw,1,500,500,0,6.8595,2.6524,-3.0482,19.8723,88.80
+sweet,sweet,sweet,1,500,500,0,7.6210,2.5675,-0.7506,15.3586,91.60
+ewd,ewd,ewd,1,500,500,0,8.0956,2.7070,-0.9293,15.6361,92.80
+dip,dip,dip,1,500,500,0,0.6663,0.2675,-0.3674,1.2728,0.00
+unbiased,unbiased,unbiased,1,500,500,0,0.6838,0.2482,-0.5444,1.2061,0.00
+morphmark,morphmark,morphmark,1,500,500,0,1.7426,1.8031,-2.5756,18.4545,37.00
+dbsf,dbsf,dbsf,1,500,500,0,13.3957,3.8926,-0.3967,23.2488,97.20

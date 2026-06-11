@@ -1,0 +1,15 @@
+scheme,detector_scheme,source_scheme,label,n,valid_scores,errors,mean_z,std_z,min_z,max_z,percent_flagged
+vanilla_kgw,kgw,vanilla,0,500,499,1,-0.3132,1.3241,-6.1642,3.0173,0.00
+vanilla_sweet,sweet,vanilla,0,500,499,1,-0.0182,1.0923,-3.2462,3.2446,0.00
+vanilla_ewd,ewd,vanilla,0,500,498,1,0.0189,1.0777,-2.7883,3.5244,0.00
+vanilla_dip,dip,vanilla,0,500,500,0,-0.0343,0.4884,-1.4458,1.4319,0.00
+vanilla_unbiased,unbiased,vanilla,0,500,499,0,-0.0343,0.4767,-1.3741,1.6971,0.20
+vanilla_morphmark,morphmark,vanilla,0,500,499,1,-0.3132,1.3241,-6.1642,3.0173,3.60
+vanilla_dbsf,dbsf,vanilla,0,500,499,1,1.2844,1.0814,-2.1816,4.4611,0.40
+kgw,kgw,kgw,1,500,499,1,7.8571,2.5391,-1.1547,17.1325,89.60
+sweet,sweet,sweet,1,500,499,1,8.5474,2.2203,-1.5877,12.3443,94.00
+ewd,ewd,ewd,1,500,499,1,9.0266,2.2336,-0.9372,13.7837,96.00
+dip,dip,dip,1,500,500,0,2.3299,0.8893,-1.0094,4.1540,84.00
+unbiased,unbiased,unbiased,1,500,498,0,2.3836,0.9536,-1.0392,4.2249,82.80
+morphmark,morphmark,morphmark,1,500,499,1,5.4305,2.1691,-2.2268,11.0551,93.40
+dbsf,dbsf,dbsf,1,500,498,2,12.5666,3.4048,0.2697,18.7366,96.80

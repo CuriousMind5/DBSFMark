@@ -1,0 +1,17 @@
+scheme,detector_scheme,source_scheme,label,n,valid_scores,errors,mean_z,std_z,min_z,max_z,percent_flagged
+vanilla_kgw,kgw,vanilla,0,500,497,3,-0.3291,1.4405,-8.1035,5.9345,0.60
+vanilla_sweet,sweet,vanilla,0,500,497,3,-0.2581,1.0702,-3.5446,2.7930,0.00
+vanilla_ewd,ewd,vanilla,0,500,497,3,-0.2421,1.0593,-3.5611,3.0909,0.00
+vanilla_dip,dip,vanilla,0,500,500,0,-0.0559,0.4475,-1.6903,1.4434,0.00
+vanilla_unbiased,unbiased,vanilla,0,500,497,0,-0.0635,0.4481,-1.5341,1.2918,0.00
+vanilla_synthid,synthid,vanilla,0,500,497,3,0.5005,0.0104,0.4556,0.5667,2.00
+vanilla_morphmark,morphmark,vanilla,0,500,497,3,-0.3291,1.4405,-8.1035,5.9345,4.00
+vanilla_dbsf,dbsf,vanilla,0,500,497,3,0.9552,1.1407,-2.6362,3.5588,0.00
+kgw,kgw,kgw,1,500,499,1,9.9881,2.8075,0.8704,18.4528,96.00
+sweet,sweet,sweet,1,500,498,2,10.1965,2.6518,-2.4962,15.5046,96.00
+ewd,ewd,ewd,1,500,498,1,10.5627,2.5256,2.0192,15.6566,96.40
+dip,dip,dip,1,500,500,0,1.8162,0.6784,-1.0607,2.9596,75.60
+unbiased,unbiased,unbiased,1,500,498,0,1.8354,0.6556,-0.5160,2.9698,78.40
+synthid,synthid,synthid,1,500,496,4,0.5621,0.0161,0.4000,0.6035,97.40
+morphmark,morphmark,morphmark,1,500,499,1,5.0616,2.1695,-0.7776,15.5933,92.40
+dbsf,dbsf,dbsf,1,500,499,1,14.4168,3.8343,1.0749,21.8792,97.80
