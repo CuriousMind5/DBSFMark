@@ -1,0 +1,20 @@
+{
+  "algorithm_name": "DBSF",
+  "gamma": 0.25,
+  "delta": 2.0,
+  "hash_key": 15485863,
+  "z_threshold": 4.0,
+  "prefix_length": 1,
+  "f_scheme": "time",
+  "window_scheme": "left",
+
+  "entropy_threshold": 0.9,
+  "topk": 50,
+  "rank_r0": 50.0,
+  "rank_decay": "inv",
+
+  "alpha_rank": 0.5,
+  "alpha_prob": 0.3,
+  "alpha_entropy": 0.2,
+  "normalize_fused_weights": true
+}

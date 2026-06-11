@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Build/cache
+build/
+dist/
+.cache/
+.ipynb_checkpoints/
+
+# Local models and data
+models/
+dataset/
+data/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Generated experiment outputs
+DBSF_experiment/
+outputs*/
+*_experiment/
+PPL/
+auroc_curves/
+*.jsonl
+*.csv
+*.png
+*.pdf
+
+# System/editor
+.DS_Store
+.vscode/
+.idea/
