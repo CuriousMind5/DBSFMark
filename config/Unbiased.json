@@ -1,6 +1,6 @@
 {
     "algorithm_name": "Unbiased",
-    "gamma": 0.5,
+    "gamma": 0.25,
     "key": 42,
     "prefix_length": 5,
     "z_threshold": 1.513,
