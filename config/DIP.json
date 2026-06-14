@@ -1,6 +1,6 @@
 {
   "algorithm_name": "DIP",
-  "gamma": 0.5,
+  "gamma": 0.25,
   "alpha": 0.45,
   "hash_key": 42,
   "prefix_length": 5,
