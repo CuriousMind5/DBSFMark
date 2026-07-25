@@ -65,7 +65,7 @@ python generation_script.py \
   --input_json /path/to/input_dataset.json \
   --num_samples 500 \
   --prompt_tokens 50 \
-  --max_new_tokens 300 \
+  --max_new_tokens 200 \
   --temperature 0.7
 ```
 
