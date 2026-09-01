@@ -100,6 +100,25 @@ Some experiment scripts currently contain local absolute paths such as `/home/sy
 
 All models were used locally in this experiment. To fully reproduce the experiments, please update the model paths according to your local environment.
 
+
+### Model Checkpoints
+
+All models are loaded from locally stored pretrained checkpoints.
+
+The evaluated checkpoints include:
+
+| Model | Checkpoint |
+|---|---|
+| OPT-1.3B | facebook/opt-1.3b |
+| OPT-2.7B | facebook/opt-2.7b |
+| OPT-6.7B | facebook/opt-6.7b |
+| OPT-13B | facebook/opt-13b |
+| Qwen3-8B | Local Qwen3-8B checkpoint |
+
+The local checkpoint paths should be updated according to the user's
+environment before running the experiments.
+
+
 ## Environment
 
 The experiments were conducted using the following hardware and software
