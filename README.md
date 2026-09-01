@@ -100,5 +100,35 @@ Some experiment scripts currently contain local absolute paths such as `/home/sy
 
 All models were used locally in this experiment. To fully reproduce the experiments, please update the model paths according to your local environment.
 
+## Environment
+
+The experiments were conducted using the following hardware and software
+configuration:
+
+- GPU: NVIDIA GeForce RTX 3090 Ti (24 GB)
+- Number of GPUs: 1
+- Python: 3.10
+- CUDA: 12.4
+
+All experiments reported in the manuscript were performed using a single GPU.
+
+## Dataset Preparation
+
+The datasets used in this work are included in the repository:
+
+- C4 RealNewsLike
+- OpenGen
+- Wiki-CSAI
+
+No additional preprocessing is applied. For each dataset instance, the first
+50 tokens are used as the prompt, and the language model generates
+approximately 200 continuation tokens using multinomial sampling with a
+temperature of 0.7.
+
+The same tokenizer, prompt construction procedure, and decoding pipeline are
+used across all watermarking methods, baseline methods, and model
+configurations.
+
+Each evaluation uses 500 samples.
 # DBSFMark
 
