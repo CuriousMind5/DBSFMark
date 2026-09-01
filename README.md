@@ -108,10 +108,12 @@ configuration:
 - GPU: NVIDIA GeForce RTX 3090 Ti (24 GB)
 - Number of GPUs: 1
 - Python: 3.10
+- PyTorch: 2.6.0+cu124
 - CUDA: 12.4
+- Transformers: 5.15.1
 
-All experiments reported in the manuscript were performed using a single GPU.
-
+All experiments reported in the manuscript were performed using a single GPU
+configuration.
 ## Dataset Preparation
 
 The datasets used in this work are included in the repository:
